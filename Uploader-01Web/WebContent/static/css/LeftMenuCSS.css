@@ -1,0 +1,86 @@
+/* body {
+	margin-left: 3px;
+	margin-right: 1px;
+	background-repeat: no-repeat;
+	background-color:#1c75b0;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	background-color:#1c75b0;
+	font-size: 13px;
+	SCROLLBAR-FACE-COLOR: WHITE;
+	SCROLLBAR-SHADOW-COLOR: #ffffff;
+	SCROLLBAR-3DLIGHT-COLOR: #000000;
+	SCROLLBAR-ARROW-COLOR: #187BA1;
+	SCROLLBAR-DARKSHADOW-COLOR: #727272;
+	SCROLLBAR-BASE-COLOR: #ffffff;
+	scrollbar-track-color: #ffffff;
+	scrollbar-highlight-color:  #187BA1;
+} */
+
+p {
+  line-height: 1em;
+}
+
+ul#menu, ul#menu ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+
+ul#menu a {
+  display: ;
+  text-decoration: none;
+}
+
+ul#menu li {
+  margin-top: 1px;
+}
+
+ul#menu li a {
+ /*  background: #cccccc; */
+  padding: 0.5em;
+}
+
+.hasSubMenu {
+  /*background: #cccccc;*/
+  color:#000000;
+  font-size: 11px;
+  font-color: #000;
+  text-transform: uppercase;
+  /*font-weight:bold;*/
+  height: auto;
+  
+}
+
+
+.link {
+  /* background: #000000; */
+  color: #000000;
+  padding: 0.5em;
+  font-size: 12px;
+  font-color: #000000;
+  /*font-weight:bold;*/
+  height: auto;
+}
+
+ul#menu li a:hover {
+}
+
+ul#menu li ul li a {
+  padding-left: 0px;
+
+
+}
+
+
+
+ul#menu li ul li a:hover,ul#menu li ul .current a {
+  border-left: 0px #000 solid;
+  padding-left: px;
+}
+
+.code { border: 1px solid #ccc; list-style-type: decimal-leading-zero; padding: 5px; margin: 0; }
+.code code { display: block; padding: 3px; margin-bottom: 0;  }
+.code li { background: #ddd; border: 1px solid #ccc; margin: 0 0 2px 2.2em;}
+.indent1 { padding-left: 1em; }
+.indent2 { padding-left: 2em; }

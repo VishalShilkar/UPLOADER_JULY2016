@@ -6,15 +6,26 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import main.java.com.uploader.web.excelUpload.model.ExcelUploadForm;
+
 
 
 @Controller
+@RequestMapping(value = {"/excelUpload"})
 public class ExcelUploadController {
 	private static final Logger logger = Logger.getLogger(ExcelUploadController.class);
 
-	@RequestMapping(value = {"/excelUpload.go"}, method = RequestMethod.GET)
+	@RequestMapping(value = {"/createExceluploadConfig.go"}, method = RequestMethod.GET)
 	public String createExceluploadConfig(ModelMap model){
-		return "";
+		logger.info("ExcelUploadController.createExceluploadConfig - Start");
+		
+		ExcelUploadForm excelUploadForm = new ExcelUploadForm();
+		model.addAttribute("excelUploadForm", excelUploadForm);
+		
+		List 
+		
+		logger.info("ExcelUploadController.createExceluploadConfig - End");
+		return "createExcelConfig";
 	}
 	
 	@RequestMapping(value = { "/hhh"}, method = RequestMethod.GET)
